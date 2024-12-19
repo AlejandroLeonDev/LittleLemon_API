@@ -1,31 +1,38 @@
 # Django-LittleLemon-API-Advanced
-Fully functioning API project for the Little Lemon restaurant so that the client application developers can use the APIs to develop web and mobile applications. People with different roles will be able to browse, add and edit menu items, place orders, browse orders, assign delivery crew to orders and finally deliver the orders.
+A comprehensive API solution powering Little Lemon restaurant's digital services, enabling developers to create both web and mobile applications. The system features role-based access control, allowing different users to perform various operations from menu management to order fulfillment.
 
-Capabilities:
+Features:
 
-Capabilities
+System Capabilities
 
-1. The admin can assign users to the manager group
-2. You can access the manager group with an admin token
-3. The admin can add menu items 
-4. The admin can add categories
-5. Managers can log in 
-6. Managers can update the item of the day
-7. Managers can assign users to the delivery crew
-8. Managers can assign orders to the delivery crew
-9. The delivery crew can access orders assigned to them
-10. The delivery crew can update an order as delivered
-11. Customers can register
-12. Customers can log in using their username and password and get access tokens
-13. Customers can browse all categories 
-14. Customers can browse all the menu items at once
-15. Customers can browse menu items by category
-16. Customers can paginate menu items
-17. Customers can sort menu items by price
-18. Customers can add menu items to the cart
-19. Customers can access previously added items in the cart
-20. Customers can place orders
-21. Customers can browse their own orders
+Administrator Powers:
+1. Manage user roles by assigning manager positions
+2. Secure access to manager functions via admin tokens
+3. Control menu content through item addition
+4. Create and manage menu categories
+
+Manager Functions:
+5. Secure system access through login
+6. Daily menu management capabilities
+7. Delivery team personnel management
+8. Order assignment control for delivery staff
+
+Delivery Team Access:
+9. View and manage assigned deliveries
+10. Update delivery status of orders
+
+Customer Features:
+11. Account creation functionality
+12. Secure login system with token authentication
+13. Complete category browsing
+14. Full menu access and viewing
+15. Category-based menu filtering
+16. Support for menu pagination
+17. Price-based menu sorting
+18. Shopping cart item management
+19. Persistent cart item storage
+20. Order placement capabilities
+21. Personal order history tracking
 
 
 API Endpoints:
